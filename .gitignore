@@ -1,0 +1,19 @@
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+# Laravel 5 & Lumen specific
+public/storage
+# Laravel 5 & Lumen specific with changed public path
+storage/*.key
+.env
+.htaccess
+Homestead.yaml
+Homestead.json
+/.vagrant
+/.github/workflows/staging2ich_wesave-staging-apiservice.yml
+.phpunit.result.cache
